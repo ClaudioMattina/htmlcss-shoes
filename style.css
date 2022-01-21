@@ -15,6 +15,7 @@
     position: absolute;
     top: 30px;
     right: 20px;
+    position: fixed;
 }
 
 .indicatore{
@@ -33,4 +34,25 @@ a{
     font-size: 20px;
     font-weight: bold;
 
+}
+
+.img-scarpa{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.prima-scarpa{
+    color: yellow;
+    font-size: 2.5rem;
+}
+
+
+.container-descrizione{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
 }
