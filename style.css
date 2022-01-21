@@ -50,9 +50,9 @@ a{
 
 
 .container-descrizione{
-    position: absolute;
-    bottom: 50px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50% , -50%);
+   text-align: center;
+}
+
+h1{
+    display: inline-block;
 }
