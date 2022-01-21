@@ -36,23 +36,29 @@ a{
 
 }
 
-.img-scarpa{
+.container{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
+    text-align: center;
 }
 
-.prima-scarpa{
+.testo{
     color: yellow;
-    font-size: 2.5rem;
+    font-size: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
-.container-descrizione{
-   text-align: center;
+#scarpa-due{
+    background-color: green;
 }
 
-h1{
-    display: inline-block;
+#scarpa-tre{
+    background-color: yellow;
+}
+
+#green-text{
+    color: green;
 }
